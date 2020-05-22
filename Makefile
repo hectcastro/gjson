@@ -1,13 +1,10 @@
 TEST?=./...
-GOFMT_FILES?=$$(find . -not -path "./vendor/*" -type f -name '*.go')
+GOFMT_FILES?=$$(find . -type f -name '*.go')
 
 default: test
 
 test: fmtcheck
-	go list -mod=vendor $(TEST) | xargs -t -n4 go test $(TESTARGS) -mod=vendor -timeout=2m -parallel=4
-
-testrace: fmtcheck
-	go test -mod=vendor -race $(TEST) $(TESTARGS)
+	go list $(TEST) | xargs -t -n4 go test $(TESTARGS) -v -timeout=2m -parallel=4
 
 cover:
 	go test $(TEST) -coverprofile=coverage.out
