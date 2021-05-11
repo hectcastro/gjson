@@ -8,6 +8,6 @@ require (
 	github.com/paulmach/go.geojson v1.4.0
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
 	github.com/sirupsen/logrus v1.6.0
-	github.com/spf13/cobra v1.0.0
+	github.com/spf13/cobra v1.1.3
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 )
