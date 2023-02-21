@@ -1,7 +1,7 @@
 project_name: gjson
 before:
   hooks:
-    - go mod download
+    - go mod tidy
 builds:
   - id: gjson
     env:
