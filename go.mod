@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/google/go-github v17.0.0+incompatible
-	github.com/paulmach/go.geojson v1.4.0
+	github.com/paulmach/go.geojson v1.5.0
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/sirupsen/logrus v1.9.2
 	github.com/spf13/cobra v1.7.0
