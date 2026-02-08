@@ -8,7 +8,7 @@ require (
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/cobra v1.10.1
-	golang.org/x/oauth2 v0.32.0
+	golang.org/x/oauth2 v0.35.0
 )
 
 require (
