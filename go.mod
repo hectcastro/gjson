@@ -1,6 +1,6 @@
 module github.com/hectcastro/gjson
 
-go 1.24.0
+go 1.25.0
 
 require (
 	github.com/google/go-github v17.0.0+incompatible
@@ -8,7 +8,7 @@ require (
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/cobra v1.10.2
-	golang.org/x/oauth2 v0.35.0
+	golang.org/x/oauth2 v0.36.0
 )
 
 require (
